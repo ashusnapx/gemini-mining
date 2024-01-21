@@ -33,31 +33,39 @@ job_description = st.text_area('Pen down your problems:', key='input')
 # Buttons
 variant1 = st.button('Solution according to DGMS')
 
-# Input prompts
-# Input prompt for mines according to DGMS rules and regulations
+# Updated prompt for mining-related queries according to DGMS and CMR 2017 rules and regulations
 input_prompt_mines_dgms = """
-As a dedicated professional in the field of mining, I come seeking profound insights and guidance in accordance with the rules and regulations set forth by the Directorate General of Mines Safety (DGMS). My inquiry is rooted in a commitment to uphold the highest standards of safety, efficiency, and ethical practices in mining operations.
+Seeking guidance in mining operations according to DGMS rules and Coal Mines Regulations (CMR) 2017, I request concise insights into the following:
 
-The specific area of focus for my query relates to [insert your specific question or topic related to mines]. I kindly request you to provide a detailed and comprehensive response that encompasses the following:
+- **DGMS Guidelines and CMR 2017 Regulations**:
+   - Provide key provisions and requirements relevant to [insert specific question or topic].
+   - Reference the rule numbers and sections for detailed information.
 
-1. **DGMS Guidelines and Regulations**: Delve into the specific DGMS guidelines and regulations that are relevant to [insert your specific question or topic]. Provide a thorough explanation of the key provisions and requirements set by DGMS to ensure compliance in mining activities.
+- **Safety Protocols and Best Practices**:
+   - Share concise insights on safety protocols endorsed by DGMS and CMR 2017.
+   - Highlight recent updates or advancements in safety standards.
+   - Include references to the specific guidelines.
 
-2. **Safety Protocols and Best Practices**: Share insights on the safety protocols and best practices endorsed by DGMS to mitigate risks and enhance safety measures in mining operations. Elaborate on any recent updates or advancements in safety standards.
+- **Environmental Compliance**:
+   - Discuss DGMS and CMR 2017 regulations focusing on environmental sustainability in mining.
+   - Highlight key measures for minimizing environmental impact.
+   - Include references to relevant environmental compliance guidelines.
 
-3. **Environmental Compliance**: Discuss DGMS regulations pertaining to environmental sustainability in mining. Highlight any measures or guidelines aimed at minimizing the environmental impact of mining activities.
+- **Technological Innovations**:
+   - Explore brief details of technological innovations encouraged by DGMS and CMR 2017.
+   - Include information on modern tools, equipment, and practices.
+   - Provide references to DGMS and CMR 2017 mandates supporting these innovations.
 
-4. **Technological Innovations**: Explore technological innovations and advancements encouraged or mandated by DGMS in the mining sector. Include information on modern tools, equipment, and practices that align with DGMS standards.
+- **Diagrams and Visual Aids**:
+   - If possible, include concise diagrams illustrating key concepts or safety measures.
+   - Reference the specific sections or guidelines in DGMS and CMR 2017 related to the visuals.
 
-5. **Diagrams and Visual Aids**: If possible, supplement the response with relevant diagrams or visual aids that illustrate key concepts, processes, or safety measures outlined by DGMS.
+Conclude the response with a relevant mining quote and express gratitude for the valuable guidance.
 
-In addition to the detailed response, kindly conclude with a poignant and relevant quote or principle from the field of mining that reflects the ethos of DGMS.
+I appreciate your expertise and await your concise insights, enriched with rule references, links, and any relevant visuals.
 
-I express my sincere appreciation for your expertise, and I eagerly await your comprehensive insights, enriched with references, links, and any available diagrams related to my query.
-
-Thank you in advance for your invaluable guidance.
+Thank you for your invaluable assistance.
 """
-
-# Now, you can use this prompt in your application for the specific mining-related queries.
 
 
 # Button actions
