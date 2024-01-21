@@ -33,38 +33,32 @@ job_description = st.text_area('Pen down your problems:', key='input')
 # Buttons
 variant1 = st.button('Solution according to DGMS')
 
-# Updated prompt for mining-related queries according to DGMS and CMR 2017 rules and regulations
+# Updated prompt for mining-related queries according to CMR 2017 rules and regulations
 input_prompt_mines_dgms = """
-Seeking guidance in mining operations according to DGMS rules and Coal Mines Regulations (CMR) 2017, I request concise insights into the following:
+Seeking guidance in mining operations according to Coal Mines Regulations (CMR), I request concise insights into the following:
 
-- **DGMS Guidelines and CMR 2017 Regulations**:
-   - Provide key provisions and requirements relevant to [insert specific question or topic].
-   - Reference the rule numbers and sections for detailed information.
+give the very exact detail that user want in very start and then show below things, because these all are just details that needs to be explained
+
+- **Key CMR Regulations**:
+   - Provide essential provisions and requirements related to [insert specific question or topic].
+   - Reference the relevant rule numbers and sections.
 
 - **Safety Protocols and Best Practices**:
-   - Share concise insights on safety protocols endorsed by DGMS and CMR 2017.
+   - Share brief insights on safety protocols endorsed by CMR .
    - Highlight recent updates or advancements in safety standards.
-   - Include references to the specific guidelines.
+   - Include references to the specific CMR guidelines.
 
 - **Environmental Compliance**:
-   - Discuss DGMS and CMR 2017 regulations focusing on environmental sustainability in mining.
+   - Discuss CMR regulations focusing on environmental sustainability in mining.
    - Highlight key measures for minimizing environmental impact.
    - Include references to relevant environmental compliance guidelines.
 
 - **Technological Innovations**:
-   - Explore brief details of technological innovations encouraged by DGMS and CMR 2017.
+   - Explore concise details of technological innovations encouraged by CMR.
    - Include information on modern tools, equipment, and practices.
-   - Provide references to DGMS and CMR 2017 mandates supporting these innovations.
-
-- **Diagrams and Visual Aids**:
-   - If possible, include concise diagrams illustrating key concepts or safety measures.
-   - Reference the specific sections or guidelines in DGMS and CMR 2017 related to the visuals.
+   - Provide references to CMR mandates supporting these innovations.
 
 Conclude the response with a relevant mining quote and express gratitude for the valuable guidance.
-
-I appreciate your expertise and await your concise insights, enriched with rule references, links, and any relevant visuals.
-
-Thank you for your invaluable assistance.
 """
 
 
